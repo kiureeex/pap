@@ -3,7 +3,7 @@ import { StyleSheet, SafeAreaView, View, Image, Text, TouchableOpacity, TextInpu
 import { KeyboardAwareScrollView } from 'react-native-keyboard-aware-scroll-view';
 import { useFonts } from 'expo-font'; 
 import { MaterialCommunityIcons } from '@expo/vector-icons';
-import { useNavigation } from '@react-navigation/native'; // Import the useNavigation hook
+import { useNavigation } from '@react-navigation/native'; 
 
 export default function Example() {
   const [form, setForm] = useState({
@@ -17,9 +17,8 @@ export default function Example() {
     setShowPassword(!showPassword);
   };
 
-  const navigation = useNavigation(); // Use the useNavigation hook to access the navigation object
+  const navigation = useNavigation(); 
 
-  // Load the "Outfit" font
   const [fontsLoaded] = useFonts({
     Outfit: require('./assets/fonts/Outfit-Regular.ttf'),
   });

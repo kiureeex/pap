@@ -9,10 +9,9 @@ This project aims to capture and process data from inertial sensors (acceleromet
 📡 > **Data Acquisition:**
 
 > The inertial hub captures data from the following sensors:
-
-> Accelerometer: Measures linear acceleration across three axes.  
-> Gyroscope: Measures angular velocity across three axes. 
-> Magnetometer: Captures magnetic field information.
+> - Accelerometer: Measures linear acceleration across three axes.  
+> - Gyroscope: Measures angular velocity across three axes. 
+> - Magnetometer: Captures magnetic field information.
 
 **💾 Data Export:**
 

@@ -1,40 +1,38 @@
-**📊 Projeto Central Inercial - Aquisição e Processamento de Dados**
+**📊 Inertial Hub Project - Data Acquisition and Processing**
 
-**🌟 Descrição Geral**
+**🌟 General Description**
 
-Este projeto visa capturar e processar dados de sensores inerciais (acelerômetro, giroscópio e magnetômetro), exportando-os em formato CSV para posterior análise por profissionais da saúde.
+This project aims to capture and process data from inertial sensors (accelerometer, gyroscope, and magnetometer), exporting them in CSV format for further analysis by healthcare professionals.
 
-🚀 Como Funciona
+🚀 How It Works
 
-📡 > **Aquisição de Dados:**
+📡 > **Data Acquisition:**
 
-> A central inercial captura dados dos seguintes sensores:  
-> - Acelerômetro: Mede aceleração linear em três eixos.  
-> - Giroscópio: Mede velocidade angular em três eixos.  
-> - Magnetômetro: Captura informações de campo magnético.
+> The inertial hub captures data from the following sensors: 
+> - Accelerometer: Measures linear acceleration across three axes.  
+> - Gyroscope: Measures angular velocity across three axes. 
+> - Magnetometer: Captures magnetic field information.
 
-**💾 Exportação de Dados**
+**💾 Data Export:**
 
-Os dados são organizados e exportados em um arquivo CSV, garantindo compatibilidade e fácil análise posterior.
+The collected data is organized and exported in CSV format, ensuring compatibility and ease of analysis.
 
-🛠️ > **Processamento com Python:**
+🛠️ > **Python Processing:**
 
-> O arquivo CSV é processado por um script em Python, transformando os dados para facilitar a análise. O processamento inclui:  
-> - Limpeza e normalização dos dados.  
-> - Estruturação dos dados para interpretação clara.
+> CSV file is processed by a Python script, transforming the data to facilitate analysis. The processing includes:
+> Cleaning and normalizing the data.  
+> Structuring the data for clear interpretation.
 
-**🎯 Objetivo**
+**🎯 Objective:**
 
-Fornecer dados precisos e estruturados para apoiar profissionais da saúde na análise de movimentos e comportamentos corporais.
+Provide accurate and structured data to support healthcare professionals in analyzing body movements and behaviors.
 
-**📝 Como Utilizar**
+**📝 How to Use:**
 
-Captura: Iniciar a aquisição de dados pela central inercial.
+**Capture:** Start data acquisition using the inertial hub.
+**Export:** Generate a CSV file with the captured data.
+**Processing:** Run the Python script to transform the data.
 
-Exportação: Gerar o arquivo CSV com os dados capturados.
+**📬 Purpose:**
 
-Processamento: Executar o script Python para transformar os dados.
-
-**📬 Intuito**
-
-Desenvolvido no âmbito da Prova de Aptidão Profissional (PAP).
+Developed as part of the Professional Aptitude Test (PAP).

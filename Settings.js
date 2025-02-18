@@ -39,7 +39,6 @@ export default function Example() {
 
             <TouchableOpacity
               onPress={() => {
-                // handle onPress
               }}>
               <View style={styles.profileAction}>
                 <Text style={styles.profileActionText}>Edit Profile</Text>

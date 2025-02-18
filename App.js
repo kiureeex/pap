@@ -39,7 +39,7 @@ const App = () => {
           tabBarStyle: {  
             borderTopEndRadius: 35,
             borderTopStartRadius: 35,
-            paddingTop: 16, // Add padding top for icons and top of tab bar
+            paddingTop: 16,
             alignItems: 'center',
             alignSelf: 'center', 
             height: 90,

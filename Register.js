@@ -17,9 +17,8 @@ export default function Example() {
       setShowPassword(!showPassword);
     };
   
-    const navigation = useNavigation(); // Use the useNavigation hook to access the navigation object
+    const navigation = useNavigation(); 
   
-    // Load the "Outfit" font
     const [fontsLoaded] = useFonts({
       Outfit: require('./assets/fonts/Outfit-Regular.ttf'),
     });
@@ -30,7 +29,7 @@ export default function Example() {
 
   return (
     <ImageBackground
-      source={require('./assets/images/fundo.png')} // Set the path to your image
+      source={require('./assets/images/fundo.png')} 
       style={styles.backgroundImage}
       >
     <SafeAreaView style={{ flex: 1 }}>

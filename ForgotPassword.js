@@ -5,7 +5,6 @@ import { useFonts } from 'expo-font';
 import { useNavigation } from '@react-navigation/native';
 
 const Forgot = () => {
-  // Load the "Outfit" font
   const [fontsLoaded] = useFonts({
     Outfit: require('./assets/fonts/Outfit-Regular.ttf'),
   });
@@ -17,7 +16,7 @@ const Forgot = () => {
 
   return (
     <ImageBackground
-      source={require('./assets/images/fundo.png')} // Set the path to your image
+      source={require('./assets/images/fundo.png')}
       style={styles.backgroundImage}
       >
     <SafeAreaView style={{ flex: 1 }}>
@@ -82,7 +81,7 @@ const styles = StyleSheet.create({
   },
   backgroundImage: {
     flex: 1,
-    resizeMode: 'cover', // or 'stretch' or 'contain'
+    resizeMode: 'cover',
     justifyContent: 'center',
   },
   textoredefinir: {

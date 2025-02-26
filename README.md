@@ -22,8 +22,8 @@ The **inertial hub** captures real-time movement data using the following sensor
 
 ```csv
 Timestamp, Acc_X, Acc_Y, Acc_Z, Gyro_X, Gyro_Y, Gyro_Z, Mag_X, Mag_Y, Mag_Z
-12:30:01, 0.98, -0.02, 9.81, 0.01, -0.02, 0.03, 30.2, 25.4, 45.1
-12:30:02, 0.99, -0.03, 9.80, 0.02, -0.01, 0.02, 30.1, 25.3, 45.0
+12:30:01,  0.98, -0.02,  9.81,  0.01,  -0.02,   0.03,   30.2,  25.4,  45.1
+12:30:02,  0.99, -0.03,  9.80,  0.02,  -0.01,   0.02,   30.1,  25.3,  45.0
 ```
 
 ### **3️⃣ Data Processing (Python Script)**  
